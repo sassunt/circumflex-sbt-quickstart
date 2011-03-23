@@ -1,6 +1,6 @@
 package circumflex_sbt_web_project
 
-import ru.circumflex.core._
+import ru.circumflex._, core._, web._
 
 class DefaultWebProject extends RequestRouter {
 
