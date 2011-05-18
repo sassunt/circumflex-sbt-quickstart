@@ -1,0 +1,14 @@
+.gitignore
+/lib_managed
+/project/boot
+/project/build/target
+/project/plugins/lib_managed
+/project/plugins/target
+/project/plugins/src_managed
+/project/plugins/project
+/tags
+/target
+/akka
+/lib/api
+/doc/mind_map
+*.log
