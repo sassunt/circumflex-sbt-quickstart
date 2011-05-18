@@ -1,6 +1,6 @@
 import sbt._
 
-class CircumflexProject(info: ProjectInfo) extends DefaultWebProject(info) {
+class CircumflexQuickstartProject(info: ProjectInfo) extends DefaultWebProject(info) {
 
     val cxVer = "2.0"
     override val jettyPort = 8180
@@ -12,7 +12,6 @@ class CircumflexProject(info: ProjectInfo) extends DefaultWebProject(info) {
 
         "javax.servlet" % "servlet-api" % "2.5" % "compile->default",
 
-        "org.mortbay.jetty" % "jetty" % "6.1.22" % "test->default",
-        "junit" % "junit" % "4.5" % "test->default"
+        "org.mortbay.jetty" % "jetty" % "6.1.26" % "test->default"
     ) ++ super.libraryDependencies
 }
