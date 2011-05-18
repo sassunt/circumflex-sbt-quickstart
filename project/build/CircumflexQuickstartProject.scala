@@ -1,6 +1,7 @@
 import sbt._
+import com.github.olim7t.sbtscalariform._
 
-class CircumflexQuickstartProject(info: ProjectInfo) extends DefaultWebProject(info) {
+class CircumflexQuickstartProject(info: ProjectInfo) extends DefaultWebProject(info) with ScalariformPlugin {
 
     val cxVer = "2.0"
     override val jettyPort = 8180
